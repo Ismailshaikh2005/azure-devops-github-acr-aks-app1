@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '7ef746ee-c341-4a31-8ca2-cdc90c1adf18'
-  imageRepository: 'app1nginx'
+  imageRepository: 'apps1/app1nginx'
   containerRegistry: 'aksdevopsacr03.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
